@@ -29,8 +29,8 @@
         .library-card {
            {
     transition: transform 0.2s, box-shadow 0.2s;
-    /* Lowered to 0.4 for better glass effect */
-    background-color: rgba(255, 255, 255, 0.4); 
+    /* Lowered to 0.7 for better glass effect */
+    background-color: rgba(255, 255, 255, 0.7); 
     /* This creates the curved corners */
     border-radius: 24px; 
     /* This blurs the image behind the card (very professional) */
@@ -44,3 +44,4 @@ main section {
     border-radius: 30px;
     padding: 20px;
 }
+
