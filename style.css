@@ -39,10 +39,11 @@
 }
 
 main section {
-    /* Lowered to 0.3 to let your background image shine through */
+    /* Lowered to 0.8 to let your background image shine through */
     background-color: rgba(255, 255, 255, 0.7); 
     border-radius: 30px;
     padding: 20px;
 }
+
 
 
