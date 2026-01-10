@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNZABECA E-Learning Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <header class="bg-unzabeca-black text-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="PHOTO-2025-11-10-10-38-43.jpg" alt="UNZABECA Logo" class="h-10 w-auto">
+                <h1 class="text-xl sm:text-2xl font-bold text-unzabeca-gold">UNZABECA E-Library</h1>
+            </div>
+            <nav class="mt-2 sm:mt-0 space-x-4">
+    <a href="index.html" class="hover:text-unzabeca-gold transition duration-150">Home</a>
+    <a href="dashboard.html" class="hover:text-unzabeca-gold transition duration-150">Dashboard</a>
+    <a href="login.html" class="bg-unzabeca-gold text-unzabeca-black px-3 py-1 rounded hover:bg-white transition duration-150 font-semibold">Login</a>
+</nav>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        
+       
+        <section class="text-center mb-10">
+            <h2 class="text-3xl font-extrabold text-gray-900 mb-2">Welcome, Future Economists & Business Leaders!</h2>
+            <p class="text-gray-900 **font-semibold**">Access essential academic resources, past papers, and study materials provided by the University of Zambia Economics and Business Association.</p>
+        </section>
+     
+   <section class="mb-10">
+    <div class="relative">
+        <form action="https://gemini.google.com/app" method="GET" target="_blank">
+            
+         <input type="text" 
+                   name="q" id="search-input" 
+                   placeholder="Search resources, topics, or ask Gemini..." 
+                   class="w-full py-3 pl-12 pr-4 text-gray-700 border border-gray-300 rounded-xl focus:ring-blue-500 focus:border-blue-500 shadow-inner overlay-bg">
+            
+            <svg class="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+
+            <button type="submit" class="hidden"></button>
+        
+        </form>
+    </div>
+</section>
+
+        <section id="categories" class="mb-12">
+            <h3 class="text-2xl font-bold text-gray-800 mb-4 border-b-2 border-unzabeca-gold pb-2">Browse Categories (By Academic Year)</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <a href="https://drive.google.com/drive/folders/1nxj0sfZyQG-4hgApT_OYw8NIFHVx8WII?usp=sharing" target="_blank" class="library-card p-4 text-center rounded-xl shadow-md border-b-4 border-teal-500 hover:border-teal-600">
+                    <span class="text-3xl">📚</span>
+                    <p class="mt-2 font-semibold text-gray-700">First Year</p>
+                </a>
+                <a href="https://drive.google.com/drive/folders/1gRYdp6hhHLhiJjajMd9xzrs7aaPg2ExH?usp=sharing" target="_blank" class="library-card p-4 text-center rounded-xl shadow-md border-b-4 border-orange-500 hover:border-orange-600">
+                    <span class="text-3xl">📈</span>
+                    <p class="mt-2 font-semibold text-gray-700">Second Year</p>
+                </a>
+                <a href="https://drive.google.com/drive/folders/1xTa3P9x6YAVzmY2kmcE2ZxArvbzDaa9v?usp=sharing" target="_blank" class="library-card p-4 text-center rounded-xl shadow-md border-b-4 border-red-500 hover:border-red-600">
+                    <span class="text-3xl">🏛️</span>
+                    <p class="mt-2 font-semibold text-gray-700">Third Year</p>
+                </a>
+                <a href="https://drive.google.com/drive/folders/1Gb626qQm-zF_875orMxAPWVJT6rJX_MQ?usp=sharing" target="_blank" class="library-card p-4 text-center rounded-xl shadow-md border-b-4 border-indigo-500 hover:border-indigo-600">
+                    <span class="text-3xl">💼</span>
+                    <p class="mt-2 font-semibold text-gray-700">Fourth Year</p>
+                </a>
+            </div>
+        </section>
+        
+        <section id="featured" class="mb-12">
+            <h3 class="text-2xl font-bold text-gray-800 mb-4 border-b-2 border-unzabeca-gold pb-2">Featured Resources</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <div class="library-card p-5 rounded-xl shadow-lg border-l-4 border-unzabeca-gold">
+    <h4 class="text-lg font-semibold text-gray-900 mb-2">Past Paper</h4>
+    <p class="text-sm text-gray-500 mb-3">Business & Economics</p>
+    <a href="https://drive.google.com/drive/folders/1VF3jorbCVhwrB-zfxHRA-fyl1txqWpCa?usp=sharing" target="_blank" class="inline-block bg-unzabeca-black text-unzabeca-gold px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-700 transition duration-200">View Document</a>
+</div>
+
+                <div class="library-card p-5 rounded-xl shadow-lg border-l-4 border-unzabeca-gold">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-2">Recommended Books</h4>
+                    <p class="text-sm text-gray-500 mb-3">A concise overview for quick revision.</p>
+                    <a href="https://drive.google.com/drive/folders/1O6h8Up3YWddPODTCkc87fkk45HX43U1H?usp=sharing" target="_blank" class="inline-block bg-unzabeca-black text-unzabeca-gold px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-700 transition duration-200">Read Now</a>
+                </div>
+
+              <div class="library-card p-5 rounded-xl shadow-lg border-l-4 border-unzabeca-gold **bg-white/10**">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-2">Video Lecture: Supply Chain</h4>
+                    <p class="text-sm text-gray-500 mb-3">Link to a curated external YouTube lecture.</p>
+                    <a href="https://youtube.com/@unzabeca7754?si=UBNNE_cEBOsxTe_-" target="_blank" class="inline-block bg-unzabeca-black text-unzabeca-gold px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-700 transition duration-200">Watch Video</a>
+                </div>
+           </div>
+
+        </section>
+
+        
+        <section id="news-updates" class="mb-12">
+            <h3 class="text-2xl font-bold text-gray-800 mb-4 border-b-2 border-unzabeca-gold pb-2">Latest News & Updates</h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <div class="library-card p-5 rounded-xl shadow-lg border-l-4 border-unzabeca-blue">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-1">📢 Annual General Meeting (AGM) Scheduled</h4>
+                    <p class="text-xs text-gray-500 mb-3">Posted: November 25, 2025</p>
+                    <p class="text-gray-700 text-sm mb-3">All members are invited to attend the UNZABECA AGM on Dec 15th. Check your email for the official agenda and virtual link.</p>
+                    <a href="#" onclick="showMessage('Event Link','Placeholder for AGM link or details.')" class="inline-block text-unzabeca-black px-4 py-1.5 rounded-lg text-sm font-medium border border-unzabeca-gold hover:bg-unzabeca-gold transition duration-200">View Details</a>
+                </div>
+
+                <div class="library-card p-5 rounded-xl shadow-lg border-l-4 border-unzabeca-blue">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-1">📘 New Microeconomics Past Papers Added!</h4>
+                    <p class="text-xs text-gray-500 mb-3">Posted: November 20, 2025</p>
+                    <p class="text-gray-700 text-sm mb-3">Second-year students can now access the full collection of ECON 2110 past papers from the 2020-2023 academic years.</p>
+                    <a href="https://drive.google.com/drive/folders/1gRYdp6hhHLhiJjajMd9xzrs7aaPg2ExH?usp=sharing" target="_blank" class="inline-block text-unzabeca-black px-4 py-1.5 rounded-lg text-sm font-medium border border-unzabeca-gold hover:bg-unzabeca-gold transition duration-200">Go to Second Year Resources</a>
+                </div>
+            </div>
+        </section>
+        </main>
+        <footer class="bg-unzabeca-black text-white mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-sm">
+            <p>&copy; 2025 UNZABECA E-Learning Library. Powered by the Business and Economics Association.</p>
+            <p class="mt-1">Designed with simplicity and accessibility in mind.</p>
+        </div>
+    </footer>
+</body>
+</html>
