@@ -28,7 +28,7 @@
         /* Card and Section Styling for Readability against Wallpaper */
         .library-card {
            transition: transform 0.2s, box-shadow 0.2s;
-            background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+            background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
         }
         .library-card:hover {
             transform: translateY(-4px);
@@ -38,6 +38,7 @@
     background-color: rgba(255, 255, 255, 0.5); /* This creates the white background */
     /* ... other styles ... */
 }
+
 
 
 
