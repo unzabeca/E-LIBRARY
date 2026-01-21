@@ -28,7 +28,7 @@
         /*.library-card {
     transition: transform 0.2s, box-shadow 0.2s;
     background-color: rgba(255, 255, 255, 0.9); /* Match the transparency of the main section */
-    border-radius: 20px;                        /* Higher number = rounder corners */
+    border-radius: 20px;/* Higher number = rounder corners */
 }
         .library-card:hover {
             transform: translateY(-4px);
@@ -36,10 +36,11 @@
         }
     main section {
     background-color: rgba(255, 255, 255, 0.9); /* Changed from 0.5 to 0.9 for less transparency */
-    border-radius: 20px;                        /* Makes the corners rounded */
-    padding: 20px;                             /* Keeps text from touching the rounded edges */
-    margin-bottom: 20px;                       /* Adds spacing between sections */
+    border-radius: 20px; /* Makes the corners rounded */
+    padding: 20px;/* Keeps text from touching the rounded edges */
+    margin-bottom: 20px;/* Adds spacing between sections */
 }
+
 
 
 
